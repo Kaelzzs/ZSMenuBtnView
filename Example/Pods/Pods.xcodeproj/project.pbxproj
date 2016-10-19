@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B44C9BD975141F8C4164A1FFA01665F /* ZSMenuBtnView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F58F113F051B5E46C2170F0D5E58F3 /* ZSMenuBtnView-dummy.m */; };
+		2DE3E74DAAF485CB397DB7EF9E7B45CB /* ZSMenuBtnView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F58F113F051B5E46C2170F0D5E58F3 /* ZSMenuBtnView-dummy.m */; };
+		34A10D98E7F23DF1EA206CA7DA23F8CA /* MenuBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 609BA1868C7B5020D29F464A82275959 /* MenuBtnView.m */; };
+		35A529703FE644A3F007633F5F475DB1 /* ZSMenuBtnView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B084A579C7AA14E50EBEAA80185B8E88 /* ZSMenuBtnView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B4E43D99AAE214F5A3F090DB70E09D4 /* Pods-ZSMenuBtnView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F403F8D21A402A2B51EB6B3E9D84A563 /* Pods-ZSMenuBtnView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D83287DBBEC0002B3FB4BAEC1AA3ECF /* ZSMenuBtnView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B084A579C7AA14E50EBEAA80185B8E88 /* ZSMenuBtnView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BD389503833573390166A3E8BD65EEC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F36AA775D20068AFB07D5D67183B4022 /* ReplaceMe.m */; };
 		B4B8E1A8868F1D8FA81149B9821CFFE2 /* Pods-ZSMenuBtnView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA8EC3F9AFDAEF560E78C820D469215 /* Pods-ZSMenuBtnView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9498F365DA62B1B7E12AA36EEBC6B01 /* MenuBtnView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3019C2D712A3ACCCABDC2C56F416119D /* MenuBtnView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFD5F96E8CB50944936FBD8D60A5D482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C46FBD0809189D2E962644B2F5F650AC /* Pods-ZSMenuBtnView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08496A175FDA74692358C0DB9433B694 /* Pods-ZSMenuBtnView_Example-dummy.m */; };
 		D907FB19BA61352527F3A9CCF10B0D94 /* Pods-ZSMenuBtnView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2A75BBD3D40A3297CA4A11C13F2F67 /* Pods-ZSMenuBtnView_Tests-dummy.m */; };
@@ -37,6 +38,8 @@
 		128ADBB1078168A76105E2DB3D7F4614 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9EF8599DE6D0060D41CF0BA23F93CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21C1F1C131F80AD40D50C53D63E1FF50 /* Pods-ZSMenuBtnView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSMenuBtnView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3019C2D712A3ACCCABDC2C56F416119D /* MenuBtnView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MenuBtnView.h; sourceTree = "<group>"; };
+		609BA1868C7B5020D29F464A82275959 /* MenuBtnView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MenuBtnView.m; sourceTree = "<group>"; };
 		69F58F113F051B5E46C2170F0D5E58F3 /* ZSMenuBtnView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSMenuBtnView-dummy.m"; sourceTree = "<group>"; };
 		6B58700D1C01FE87D95FBB4989CB9F46 /* Pods-ZSMenuBtnView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSMenuBtnView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BCCC9CFF0A4F420114A47E4F27B0298 /* Pods-ZSMenuBtnView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSMenuBtnView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -60,7 +63,6 @@
 		CB20492496EE43EEB3CF58F3CFDC7024 /* ZSMenuBtnView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSMenuBtnView.xcconfig; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DBAB1C9FFD70968D114EDCAD3F0CDE72 /* Pods-ZSMenuBtnView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSMenuBtnView_Example-resources.sh"; sourceTree = "<group>"; };
-		F36AA775D20068AFB07D5D67183B4022 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F403F8D21A402A2B51EB6B3E9D84A563 /* Pods-ZSMenuBtnView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSMenuBtnView_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +97,7 @@
 		04E9F2074FB8FA1D22165D20C89F4B32 /* ZSMenuBtnView */ = {
 			isa = PBXGroup;
 			children = (
-				D16190D2E4EE771D0DEEEB7DB971EAF3 /* Classes */,
+				F84D0090D42977D7E7E0C267AB14AA9F /* Classes */,
 			);
 			path = ZSMenuBtnView;
 			sourceTree = "<group>";
@@ -197,20 +199,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A866CD5A9E2050B11AC8CE79AB54A9AA /* MenuBtnView */ = {
+			isa = PBXGroup;
+			children = (
+				3019C2D712A3ACCCABDC2C56F416119D /* MenuBtnView.h */,
+				609BA1868C7B5020D29F464A82275959 /* MenuBtnView.m */,
+			);
+			path = MenuBtnView;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D16190D2E4EE771D0DEEEB7DB971EAF3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F36AA775D20068AFB07D5D67183B4022 /* ReplaceMe.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		DA67EF8B8CDE87816A20F525AE306FB2 /* Targets Support Files */ = {
@@ -222,9 +225,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F84D0090D42977D7E7E0C267AB14AA9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A866CD5A9E2050B11AC8CE79AB54A9AA /* MenuBtnView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		5998457160271C446A82D20D708E2BAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9498F365DA62B1B7E12AA36EEBC6B01 /* MenuBtnView.h in Headers */,
+				35A529703FE644A3F007633F5F475DB1 /* ZSMenuBtnView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F0060D577B16C022401B5453373478F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,14 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4B8E1A8868F1D8FA81149B9821CFFE2 /* Pods-ZSMenuBtnView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9588A9FDD186A1E47282539B943A16F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D83287DBBEC0002B3FB4BAEC1AA3ECF /* ZSMenuBtnView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +285,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9C9164F1A94AFAFB85A2F5C5C9C359E /* Build configuration list for PBXNativeTarget "ZSMenuBtnView" */;
 			buildPhases = (
-				94835A393509D4F4DDAD0EC969555791 /* Sources */,
+				20FE9FF3420B936147AA779E341292D4 /* Sources */,
 				437C4E774023F7270522FA825990DC96 /* Frameworks */,
-				E9588A9FDD186A1E47282539B943A16F /* Headers */,
+				5998457160271C446A82D20D708E2BAA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -333,12 +345,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94835A393509D4F4DDAD0EC969555791 /* Sources */ = {
+		20FE9FF3420B936147AA779E341292D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BD389503833573390166A3E8BD65EEC /* ReplaceMe.m in Sources */,
-				2B44C9BD975141F8C4164A1FFA01665F /* ZSMenuBtnView-dummy.m in Sources */,
+				34A10D98E7F23DF1EA206CA7DA23F8CA /* MenuBtnView.m in Sources */,
+				2DE3E74DAAF485CB397DB7EF9E7B45CB /* ZSMenuBtnView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
