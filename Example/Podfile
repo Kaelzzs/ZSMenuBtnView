@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZSMenuBtnView_Example' do
+  pod 'ZSMenuBtnView', :path => '../'
+
+  target 'ZSMenuBtnView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
