@@ -1,0 +1,16 @@
+PODS:
+  - ZSMenuBtnView (0.1.0)
+
+DEPENDENCIES:
+  - ZSMenuBtnView (from `../`)
+
+EXTERNAL SOURCES:
+  ZSMenuBtnView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZSMenuBtnView: aba5563fd0bf58add2172e713f2a3ea960e85a07
+
+PODFILE CHECKSUM: 7625a0883ecfe41fb4c2d53a024c771b408345b2
+
+COCOAPODS: 1.1.0.rc.3

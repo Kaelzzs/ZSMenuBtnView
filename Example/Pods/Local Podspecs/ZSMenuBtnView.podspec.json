@@ -1,0 +1,22 @@
+{
+  "name": "ZSMenuBtnView",
+  "version": "0.1.0",
+  "summary": "A short description of ZSMenuBtnView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ZSMenuBtnView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kael": "zhouzuosong_Kael@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ZSMenuBtnView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZSMenuBtnView/Classes/**/*"
+}

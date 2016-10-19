@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B44C9BD975141F8C4164A1FFA01665F /* ZSMenuBtnView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F58F113F051B5E46C2170F0D5E58F3 /* ZSMenuBtnView-dummy.m */; };
+		4B4E43D99AAE214F5A3F090DB70E09D4 /* Pods-ZSMenuBtnView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F403F8D21A402A2B51EB6B3E9D84A563 /* Pods-ZSMenuBtnView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D83287DBBEC0002B3FB4BAEC1AA3ECF /* ZSMenuBtnView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B084A579C7AA14E50EBEAA80185B8E88 /* ZSMenuBtnView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD389503833573390166A3E8BD65EEC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F36AA775D20068AFB07D5D67183B4022 /* ReplaceMe.m */; };
+		B4B8E1A8868F1D8FA81149B9821CFFE2 /* Pods-ZSMenuBtnView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA8EC3F9AFDAEF560E78C820D469215 /* Pods-ZSMenuBtnView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD5F96E8CB50944936FBD8D60A5D482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C46FBD0809189D2E962644B2F5F650AC /* Pods-ZSMenuBtnView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08496A175FDA74692358C0DB9433B694 /* Pods-ZSMenuBtnView_Example-dummy.m */; };
+		D907FB19BA61352527F3A9CCF10B0D94 /* Pods-ZSMenuBtnView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2A75BBD3D40A3297CA4A11C13F2F67 /* Pods-ZSMenuBtnView_Tests-dummy.m */; };
+		EC823EA077497C97DBD307E16320D707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F65F77A0298A9653D87590628017A9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12025728C0535FF0FC78C9ADFECCD74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963E37B548228DD3B772287A8E326EA9;
+			remoteInfo = ZSMenuBtnView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EC99DE19489EF8C4391F4342A20F09 /* ZSMenuBtnView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZSMenuBtnView.modulemap; sourceTree = "<group>"; };
+		05A434DDEAF8E5ACFDDE145C19B5B875 /* Pods-ZSMenuBtnView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSMenuBtnView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08496A175FDA74692358C0DB9433B694 /* Pods-ZSMenuBtnView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSMenuBtnView_Example-dummy.m"; sourceTree = "<group>"; };
+		0939DB5C4F09B65DE18F21FC35DB348C /* Pods-ZSMenuBtnView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSMenuBtnView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		128ADBB1078168A76105E2DB3D7F4614 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9EF8599DE6D0060D41CF0BA23F93CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C1F1C131F80AD40D50C53D63E1FF50 /* Pods-ZSMenuBtnView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSMenuBtnView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		69F58F113F051B5E46C2170F0D5E58F3 /* ZSMenuBtnView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSMenuBtnView-dummy.m"; sourceTree = "<group>"; };
+		6B58700D1C01FE87D95FBB4989CB9F46 /* Pods-ZSMenuBtnView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSMenuBtnView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BCCC9CFF0A4F420114A47E4F27B0298 /* Pods-ZSMenuBtnView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSMenuBtnView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CDB7AAFEFAD8CBDEE857EE476843D27 /* Pods-ZSMenuBtnView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZSMenuBtnView_Example.modulemap"; sourceTree = "<group>"; };
+		761F5F68B6A042CA931A7D1B74B0B696 /* Pods-ZSMenuBtnView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSMenuBtnView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		79B6A5BAB0F3CD44CB47A58EF912591C /* Pods-ZSMenuBtnView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSMenuBtnView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CA8EC3F9AFDAEF560E78C820D469215 /* Pods-ZSMenuBtnView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSMenuBtnView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8049786EEF0AA9C438F853CE2CEE59A2 /* Pods_ZSMenuBtnView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSMenuBtnView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C40121EE54C3F9941AAC3AFBF7DB27 /* Pods-ZSMenuBtnView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSMenuBtnView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8CFBEB128D35E7E3354BB06B33F816FE /* Pods-ZSMenuBtnView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSMenuBtnView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		912584EEBC556D4B7C3B67EE1738BCB8 /* Pods_ZSMenuBtnView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSMenuBtnView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94795746870769701322DE806563507C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965EB35D75272152ECE377C2E412CCC0 /* Pods-ZSMenuBtnView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSMenuBtnView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9999875ADE256B6E24DA47B051071B64 /* ZSMenuBtnView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSMenuBtnView-prefix.pch"; sourceTree = "<group>"; };
+		AB95FB738D9D5FA93AC31F57349E27FC /* ZSMenuBtnView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZSMenuBtnView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2A75BBD3D40A3297CA4A11C13F2F67 /* Pods-ZSMenuBtnView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSMenuBtnView_Tests-dummy.m"; sourceTree = "<group>"; };
+		B084A579C7AA14E50EBEAA80185B8E88 /* ZSMenuBtnView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSMenuBtnView-umbrella.h"; sourceTree = "<group>"; };
+		B846C5461A02DC85428235B2DCC0ED26 /* Pods-ZSMenuBtnView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSMenuBtnView_Tests-resources.sh"; sourceTree = "<group>"; };
+		C751D6EEB9860925C7291E013E59E883 /* Pods-ZSMenuBtnView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZSMenuBtnView_Tests.modulemap"; sourceTree = "<group>"; };
+		CB20492496EE43EEB3CF58F3CFDC7024 /* ZSMenuBtnView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSMenuBtnView.xcconfig; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBAB1C9FFD70968D114EDCAD3F0CDE72 /* Pods-ZSMenuBtnView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSMenuBtnView_Example-resources.sh"; sourceTree = "<group>"; };
+		F36AA775D20068AFB07D5D67183B4022 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F403F8D21A402A2B51EB6B3E9D84A563 /* Pods-ZSMenuBtnView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSMenuBtnView_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0304BCA6CB4B93A152EB60559EF2BCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD5F96E8CB50944936FBD8D60A5D482 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3767486A49B6BB7933FF51564CFB27E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65F77A0298A9653D87590628017A9CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C4E774023F7270522FA825990DC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC823EA077497C97DBD307E16320D707 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E9F2074FB8FA1D22165D20C89F4B32 /* ZSMenuBtnView */ = {
+			isa = PBXGroup;
+			children = (
+				D16190D2E4EE771D0DEEEB7DB971EAF3 /* Classes */,
+			);
+			path = ZSMenuBtnView;
+			sourceTree = "<group>";
+		};
+		1EA007BAA36B5EDEBF74F9677AC48EB0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				861D253F6BA02FDCA7AC9C673304C9B4 /* ZSMenuBtnView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		31437D5F48F49E2AED625E48E8BAEDEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94795746870769701322DE806563507C /* Info.plist */,
+				01EC99DE19489EF8C4391F4342A20F09 /* ZSMenuBtnView.modulemap */,
+				CB20492496EE43EEB3CF58F3CFDC7024 /* ZSMenuBtnView.xcconfig */,
+				69F58F113F051B5E46C2170F0D5E58F3 /* ZSMenuBtnView-dummy.m */,
+				9999875ADE256B6E24DA47B051071B64 /* ZSMenuBtnView-prefix.pch */,
+				B084A579C7AA14E50EBEAA80185B8E88 /* ZSMenuBtnView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZSMenuBtnView";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		71DE010BC7073EF755CFD0CDCF47AD99 /* Pods-ZSMenuBtnView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1A9EF8599DE6D0060D41CF0BA23F93CF /* Info.plist */,
+				6CDB7AAFEFAD8CBDEE857EE476843D27 /* Pods-ZSMenuBtnView_Example.modulemap */,
+				05A434DDEAF8E5ACFDDE145C19B5B875 /* Pods-ZSMenuBtnView_Example-acknowledgements.markdown */,
+				79B6A5BAB0F3CD44CB47A58EF912591C /* Pods-ZSMenuBtnView_Example-acknowledgements.plist */,
+				08496A175FDA74692358C0DB9433B694 /* Pods-ZSMenuBtnView_Example-dummy.m */,
+				761F5F68B6A042CA931A7D1B74B0B696 /* Pods-ZSMenuBtnView_Example-frameworks.sh */,
+				DBAB1C9FFD70968D114EDCAD3F0CDE72 /* Pods-ZSMenuBtnView_Example-resources.sh */,
+				F403F8D21A402A2B51EB6B3E9D84A563 /* Pods-ZSMenuBtnView_Example-umbrella.h */,
+				88C40121EE54C3F9941AAC3AFBF7DB27 /* Pods-ZSMenuBtnView_Example.debug.xcconfig */,
+				21C1F1C131F80AD40D50C53D63E1FF50 /* Pods-ZSMenuBtnView_Example.release.xcconfig */,
+			);
+			name = "Pods-ZSMenuBtnView_Example";
+			path = "Target Support Files/Pods-ZSMenuBtnView_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1EA007BAA36B5EDEBF74F9677AC48EB0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				94088CBA8D67FAD3E42EB96929C3968F /* Products */,
+				DA67EF8B8CDE87816A20F525AE306FB2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8438AD46B1766D5DA39E64AE2C88A755 /* Pods-ZSMenuBtnView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				128ADBB1078168A76105E2DB3D7F4614 /* Info.plist */,
+				C751D6EEB9860925C7291E013E59E883 /* Pods-ZSMenuBtnView_Tests.modulemap */,
+				6B58700D1C01FE87D95FBB4989CB9F46 /* Pods-ZSMenuBtnView_Tests-acknowledgements.markdown */,
+				6BCCC9CFF0A4F420114A47E4F27B0298 /* Pods-ZSMenuBtnView_Tests-acknowledgements.plist */,
+				AD2A75BBD3D40A3297CA4A11C13F2F67 /* Pods-ZSMenuBtnView_Tests-dummy.m */,
+				965EB35D75272152ECE377C2E412CCC0 /* Pods-ZSMenuBtnView_Tests-frameworks.sh */,
+				B846C5461A02DC85428235B2DCC0ED26 /* Pods-ZSMenuBtnView_Tests-resources.sh */,
+				7CA8EC3F9AFDAEF560E78C820D469215 /* Pods-ZSMenuBtnView_Tests-umbrella.h */,
+				8CFBEB128D35E7E3354BB06B33F816FE /* Pods-ZSMenuBtnView_Tests.debug.xcconfig */,
+				0939DB5C4F09B65DE18F21FC35DB348C /* Pods-ZSMenuBtnView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZSMenuBtnView_Tests";
+			path = "Target Support Files/Pods-ZSMenuBtnView_Tests";
+			sourceTree = "<group>";
+		};
+		861D253F6BA02FDCA7AC9C673304C9B4 /* ZSMenuBtnView */ = {
+			isa = PBXGroup;
+			children = (
+				31437D5F48F49E2AED625E48E8BAEDEC /* Support Files */,
+				04E9F2074FB8FA1D22165D20C89F4B32 /* ZSMenuBtnView */,
+			);
+			name = ZSMenuBtnView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		94088CBA8D67FAD3E42EB96929C3968F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8049786EEF0AA9C438F853CE2CEE59A2 /* Pods_ZSMenuBtnView_Example.framework */,
+				912584EEBC556D4B7C3B67EE1738BCB8 /* Pods_ZSMenuBtnView_Tests.framework */,
+				AB95FB738D9D5FA93AC31F57349E27FC /* ZSMenuBtnView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D16190D2E4EE771D0DEEEB7DB971EAF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F36AA775D20068AFB07D5D67183B4022 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DA67EF8B8CDE87816A20F525AE306FB2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71DE010BC7073EF755CFD0CDCF47AD99 /* Pods-ZSMenuBtnView_Example */,
+				8438AD46B1766D5DA39E64AE2C88A755 /* Pods-ZSMenuBtnView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F0060D577B16C022401B5453373478F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4E43D99AAE214F5A3F090DB70E09D4 /* Pods-ZSMenuBtnView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E247A75F5BB3B8FB03F190F8B512341D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B8E1A8868F1D8FA81149B9821CFFE2 /* Pods-ZSMenuBtnView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9588A9FDD186A1E47282539B943A16F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D83287DBBEC0002B3FB4BAEC1AA3ECF /* ZSMenuBtnView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50A5678CEA6AD46B3A05B4932A8E8F42 /* Pods-ZSMenuBtnView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43C68B52C2076107B39F10AA410B2BF /* Build configuration list for PBXNativeTarget "Pods-ZSMenuBtnView_Tests" */;
+			buildPhases = (
+				CA40B5994627ED01E5B2E5383D3946A3 /* Sources */,
+				0304BCA6CB4B93A152EB60559EF2BCD9 /* Frameworks */,
+				E247A75F5BB3B8FB03F190F8B512341D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZSMenuBtnView_Tests";
+			productName = "Pods-ZSMenuBtnView_Tests";
+			productReference = 912584EEBC556D4B7C3B67EE1738BCB8 /* Pods_ZSMenuBtnView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		963E37B548228DD3B772287A8E326EA9 /* ZSMenuBtnView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C9164F1A94AFAFB85A2F5C5C9C359E /* Build configuration list for PBXNativeTarget "ZSMenuBtnView" */;
+			buildPhases = (
+				94835A393509D4F4DDAD0EC969555791 /* Sources */,
+				437C4E774023F7270522FA825990DC96 /* Frameworks */,
+				E9588A9FDD186A1E47282539B943A16F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSMenuBtnView;
+			productName = ZSMenuBtnView;
+			productReference = AB95FB738D9D5FA93AC31F57349E27FC /* ZSMenuBtnView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB4F143D073CABD9021CDD11B677FAFD /* Pods-ZSMenuBtnView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5BAC9BC8A8C6F9ECC13700BC241564 /* Build configuration list for PBXNativeTarget "Pods-ZSMenuBtnView_Example" */;
+			buildPhases = (
+				BE86BB5BD9EAD363CD93F8DDDDB94750 /* Sources */,
+				3767486A49B6BB7933FF51564CFB27E2 /* Frameworks */,
+				9F0060D577B16C022401B5453373478F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8178E8123093F0A00622848FA9626219 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZSMenuBtnView_Example";
+			productName = "Pods-ZSMenuBtnView_Example";
+			productReference = 8049786EEF0AA9C438F853CE2CEE59A2 /* Pods_ZSMenuBtnView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 94088CBA8D67FAD3E42EB96929C3968F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4F143D073CABD9021CDD11B677FAFD /* Pods-ZSMenuBtnView_Example */,
+				50A5678CEA6AD46B3A05B4932A8E8F42 /* Pods-ZSMenuBtnView_Tests */,
+				963E37B548228DD3B772287A8E326EA9 /* ZSMenuBtnView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94835A393509D4F4DDAD0EC969555791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD389503833573390166A3E8BD65EEC /* ReplaceMe.m in Sources */,
+				2B44C9BD975141F8C4164A1FFA01665F /* ZSMenuBtnView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE86BB5BD9EAD363CD93F8DDDDB94750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46FBD0809189D2E962644B2F5F650AC /* Pods-ZSMenuBtnView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA40B5994627ED01E5B2E5383D3946A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D907FB19BA61352527F3A9CCF10B0D94 /* Pods-ZSMenuBtnView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8178E8123093F0A00622848FA9626219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZSMenuBtnView;
+			target = 963E37B548228DD3B772287A8E326EA9 /* ZSMenuBtnView */;
+			targetProxy = 12025728C0535FF0FC78C9ADFECCD74E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3327F29F891E2B331EA01CE54EC8E941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C1F1C131F80AD40D50C53D63E1FF50 /* Pods-ZSMenuBtnView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZSMenuBtnView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZSMenuBtnView_Example/Pods-ZSMenuBtnView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZSMenuBtnView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE85CAC2FEBB6198BE061D6CA7B7E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C40121EE54C3F9941AAC3AFBF7DB27 /* Pods-ZSMenuBtnView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZSMenuBtnView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZSMenuBtnView_Example/Pods-ZSMenuBtnView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZSMenuBtnView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A463292D7064EDB1FC3EF2D0B797218D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0939DB5C4F09B65DE18F21FC35DB348C /* Pods-ZSMenuBtnView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZSMenuBtnView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZSMenuBtnView_Tests/Pods-ZSMenuBtnView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZSMenuBtnView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5D3CAD786A99ED44AE7961D0F119F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB20492496EE43EEB3CF58F3CFDC7024 /* ZSMenuBtnView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZSMenuBtnView/ZSMenuBtnView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZSMenuBtnView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZSMenuBtnView/ZSMenuBtnView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZSMenuBtnView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F445E558E5C4E5B1369D51CD253223DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFBEB128D35E7E3354BB06B33F816FE /* Pods-ZSMenuBtnView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZSMenuBtnView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZSMenuBtnView_Tests/Pods-ZSMenuBtnView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZSMenuBtnView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FBC68D9A52FDE98CCC69FFA897CB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB20492496EE43EEB3CF58F3CFDC7024 /* ZSMenuBtnView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZSMenuBtnView/ZSMenuBtnView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZSMenuBtnView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZSMenuBtnView/ZSMenuBtnView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZSMenuBtnView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5BAC9BC8A8C6F9ECC13700BC241564 /* Build configuration list for PBXNativeTarget "Pods-ZSMenuBtnView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE85CAC2FEBB6198BE061D6CA7B7E48 /* Debug */,
+				3327F29F891E2B331EA01CE54EC8E941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43C68B52C2076107B39F10AA410B2BF /* Build configuration list for PBXNativeTarget "Pods-ZSMenuBtnView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F445E558E5C4E5B1369D51CD253223DA /* Debug */,
+				A463292D7064EDB1FC3EF2D0B797218D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C9164F1A94AFAFB85A2F5C5C9C359E /* Build configuration list for PBXNativeTarget "ZSMenuBtnView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FBC68D9A52FDE98CCC69FFA897CB9E /* Debug */,
+				E5D3CAD786A99ED44AE7961D0F119F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

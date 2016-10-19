@@ -1,0 +1,6 @@
+framework module ZSMenuBtnView {
+  umbrella header "ZSMenuBtnView-umbrella.h"
+
+  export *
+  module * { export * }
+}

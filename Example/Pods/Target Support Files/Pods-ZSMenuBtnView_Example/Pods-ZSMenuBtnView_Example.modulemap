@@ -1,0 +1,6 @@
+framework module Pods_ZSMenuBtnView_Example {
+  umbrella header "Pods-ZSMenuBtnView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
